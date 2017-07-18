@@ -1,0 +1,34 @@
+{
+	"name": "create-gist",
+	"version": "0.0.0",
+	"description": "Create an anonymous GitHub Gist",
+	"license": "MIT",
+	"repository": "vadimdemedes/create-gist",
+	"author": {
+		"name": "Vadim Demedes",
+		"email": "vdemedes@gmail.com",
+		"url": "github.com/vadimdemedes"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"github",
+		"gist"
+	],
+	"dependencies": {
+		"arrify": "^1.0.1",
+		"got": "^7.1.0"
+	},
+	"devDependencies": {
+		"ava": "^0.20.0",
+		"nock": "^9.0.14",
+		"xo": "^0.18.2"
+	}
+}
